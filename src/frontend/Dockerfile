@@ -1,4 +1,4 @@
-FROM node:10-slim
+FROM node:16.15.0
 
 WORKDIR /frontend
 

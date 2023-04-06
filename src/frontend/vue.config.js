@@ -8,6 +8,7 @@ module.exports = {
   },
 
   devServer: {
+    host: 'localhost',
     proxy: {
       "^/api": {
         target: "http://backend:3000/",
